@@ -530,6 +530,9 @@ extern const AVInputFormat  ff_libmodplug_demuxer;
 extern const AVInputFormat  ff_libopenmpt_demuxer;
 extern const AVInputFormat  ff_vapoursynth_demuxer;
 
+/* custom */
+extern const AVOutputFormat ff_wfm_muxer;
+
 #include "libavformat/muxer_list.c"
 #include "libavformat/demuxer_list.c"
 
